@@ -1,0 +1,13 @@
+#pragma once
+
+namespace fsp1::Config {
+constexpr auto organization = "@FS_ORGANIZATION@";
+constexpr auto copyright = "@FS_COPYRIGHT@";
+constexpr auto year = "@FS_YEAR@";
+
+constexpr auto name = "@FSP1@";
+constexpr auto version = "@FSP1_VERSION@";
+constexpr auto github = "@FSP1_GITHUB@";
+constexpr auto discord = "@FS_DISCORD@";
+constexpr auto twitter = "@FS_TWITTER@";
+} // namespace fsd::Config

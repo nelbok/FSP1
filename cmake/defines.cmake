@@ -1,0 +1,5 @@
+set(FSP1_VERSION "0.0.1")
+string(REPLACE "." "," FSP1_VERSION_RC ${FSP1_VERSION})
+set(CFSP1 "FSP1")
+set(FSP1 "Foxxy Soft Project 1")
+set(FSP1_GITHUB "https://github.com/nelbok/FSP1")
