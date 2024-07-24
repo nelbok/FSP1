@@ -9,6 +9,7 @@ jobs:
         with:
           version: '6.6.*'
           modules: qtquick3d qtquick3dphysics qtshadertools
+      - run: git submodule update --init
       - run: cmake -B build
       - run: cmake --build build -j
 #      - run: ./build/tests/Tests -platform offscreen
@@ -20,6 +21,7 @@ jobs:
         with:
           version: '6.5.*'
           modules: qtquick3d qtquick3dphysics qtshadertools
+      - run: git submodule update --init
       - run: cmake -B build
       - run: cmake --build build -j
 #      - run: ./build/tests/Tests -platform offscreen
